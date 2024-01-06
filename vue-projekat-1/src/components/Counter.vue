@@ -11,3 +11,10 @@ let counter = ref(0)
         {{ counter }}
     </div>
 </template>
+
+<style scoped>
+
+.counter {
+ 
+}
+</style>
