@@ -8,16 +8,21 @@ let counter = ref(0)
 
 
 <template>
-    <div class="counter">
-        {{ counter }}
+    <div>
+        <button>{{ counter }}</button>
     </div>
 </template>
 
 <style>
 
-.counter {
+div {
     background-color: yellow;
+    display: flex;
+    justify-content: center;
     
+    }
+div button {
+    font-size: 41px;
 }
  
 
