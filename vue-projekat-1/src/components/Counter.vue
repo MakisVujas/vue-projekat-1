@@ -3,6 +3,12 @@ import { ref } from 'vue'
 
 let counter = ref(0)
 
+let plus = () => {
+    counter.value++
+}
+ let minus = () => {
+    counter.value--
+ }
 
 
 </script>
@@ -15,8 +21,8 @@ let counter = ref(0)
         <h1>{{ counter }}</h1>
     </div>
     <div class="container">
-        <button>+</button>
-        <button>-</button>
+        <button @click="plus">+</button>
+        <button @click="minus">-</button>
     </div>
     
 </template>
