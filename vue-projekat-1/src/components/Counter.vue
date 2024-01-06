@@ -2,6 +2,7 @@
 import { ref } from 'vue'
 
 let counter = ref(0)
+
 </script>
 
 
@@ -12,9 +13,12 @@ let counter = ref(0)
     </div>
 </template>
 
-<style scoped>
+<style>
 
 .counter {
- 
+    background-color: yellow;
+    
 }
+ 
+
 </style>
